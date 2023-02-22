@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="solution.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>The Big Fat String</h1>
+        <label for="input">Input:</label>
+        <input type="text" id="input" placeholder="Enter input here...">
+        <label for="option">Option:</label>
+        <select id="option">
+          <option value="first-name">Make first character uppercase</option>
+          <option value="find-first-name">Find first name</option>
+          <option value="find-first-name-length">Find first name length</option>
+          <option value="find-middle-name">Find middle name</option>
+          <option value="check-file-extension">Check file extension</option>
+          <option value="hide-password">Hide password</option>
+          <option value="make-third-char-uppercase">Make third character uppercase</option>
+          <option value="make-uppercase-after-space-or-hyphen">Make uppercase after space or hyphen</option>
+        </select>
+        <button onclick="processInput()">Output</button>
+        <br>
+        <label for="output">Output:</label>
+        <textarea id="output" rows="4" cols="50" readonly></textarea>
+      </div>
+      <script src="solution.js"></script>
+</body>
+</html>
